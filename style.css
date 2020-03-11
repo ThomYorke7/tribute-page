@@ -1,16 +1,22 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sen&display=swap');
 
 
+/* Set root font-size */
 :root {
     font-size: 18px;
 }
 
+
+/* Global Settings */
 html {
     background-color:  #0b3954;
     color: rgb(46, 45, 51);
     font-family: "Sen", sans-serif;
 }
 
+
+/* Setting the title and its components */
 #title {
     display: flex;
     flex-direction: column;
@@ -31,18 +37,28 @@ h1 {
     font-size: 1.5rem;
 }
 
+
+/*Setting the main content, being the picture and the biography */
+#secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #img-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #e5e1ee;
-    width: 90%;
+    width: 50%;
     margin-left: 5%;
 }
 
 #image {
-    margin-top: 1rem;
+    margin: 1rem;
+    max-width:100%;
+    height:auto;
 }
 
 #img-caption {
@@ -60,7 +76,8 @@ h1 {
     margin: 1rem;
     padding: 1rem;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 ul {
@@ -80,11 +97,27 @@ li {
     margin-left: 1rem;
 }
 
+
+/* Setting the footer and the Wikipedia link */
 #wiki-entry {
     text-align: center;
     color: #ff6663;
+    margin-top: 3rem;
 }
 
 #tribute-link {
     color: #ff6663
+}
+
+
+/* Setting media query for smaller screens */
+@media (max-width: 768px) {
+    #secondary {
+        flex-direction: column;
+    }
+
+    #img-div {
+        margin-left: 0;
+    }
+
 }
