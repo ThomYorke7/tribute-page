@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sen&display=swap');
+
+
+:root {
+    font-size: 18px;
+}
+
+html {
+    background-color:  #0b3954;
+    color: rgb(46, 45, 51);
+    font-family: "Sen", sans-serif;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b3954;
+    margin: 1rem;
+    color: #ff6663;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: "Lobster", cursive;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e1ee;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#image {
+    margin-top: 1rem;
+}
+
+#img-caption {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6663;
+    color:  #092f46;
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    margin-left: 25%;
+}
+
+ul {
+    padding: 0;
+}
+
+ul p {
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+li {
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#wiki-entry {
+    text-align: center;
+    color: #ff6663;
+}
+
+#tribute-link {
+    color: #ff6663
+}
