@@ -119,6 +119,7 @@ li {
 
     #img-div {
         margin-left: 0;
+        width: auto;
     }
 
     #img-caption {
@@ -126,4 +127,7 @@ li {
         margin-bottom: 0;
         padding: 0.5rem;
     }
+    
+    #tribute-info {
+        width: auto;
 }
